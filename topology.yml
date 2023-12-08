@@ -10,8 +10,8 @@ hosts:
   - name: client
     base_box: 
       image: kali
-      man_user: ubuntu
-    flavor: m1.medium
+      man_user: kali
+    flavor: m1.small
 
 routers:
   - name: router
